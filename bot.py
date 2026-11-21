@@ -93,7 +93,7 @@ MY_OWNER_ID = ""         # example: "8936721340"  (leave empty to keep the defau
 MY_ACCESS_PASSWORD = ""  # optional
 # ═════════════════════════════════════════════════════════════════════════════════
 
-TOKEN = os.getenv("BOT_TOKEN", "8848962072:AAGzonOgLpouMZ_mfbmb94Gdl8LKiBtNcgE").strip() or MY_BOT_TOKEN.strip()
+TOKEN = os.getenv("BOT_TOKEN", "8848962072:AAF_XY8jtN8P3ZW2RRsxK6X-R03Nzes8GUE").strip() or MY_BOT_TOKEN.strip()
 OWNER_ID = int(os.getenv("OWNER_ID", "8936721340").strip() or MY_OWNER_ID.strip() or "8936721340")
 # Optional: users who send this text get approved automatically. Empty = disabled.
 ACCESS_PASSWORD = os.getenv("ACCESS_PASSWORD", "xpobaid7879").strip() or MY_ACCESS_PASSWORD.strip()
